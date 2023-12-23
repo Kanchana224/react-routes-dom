@@ -8,7 +8,8 @@ function Nav() {
   <div className="container-fluid">
     <a className="navbar-brand fw-bold" id='nav' href="#">Navbar</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+    <span className="navbar-toggler-icon"></span>
+
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mx-auto text-center fw-bold mb-2 mb-lg-0">
@@ -26,7 +27,7 @@ function Nav() {
           <Link to='/cyber-security' className="nav-link active" href="#">CYBER SECURITY</Link>
         </li>
         <li className="nav-item mx-3">
-          <Link to='/carrier-development' className="nav-link active" aria-disabled="true">CAREER</Link>
+          <Link to='/carrier-development' className="nav-link active" aria-disabled="true">CAREER DEVELOPMENT</Link>
         </li>
       </ul>      
     </div>

@@ -3,24 +3,27 @@
     display: none;
   }
 }
-
+body{
+  background-color: black;
+}
 #navbarSupportedContent li a {
   border-bottom: 2px solid transparent;
-  color: #494c4f !important;
+  color: #d3d7db !important;
 }
-
 nav {
-  box-shadow: 5px 5px 15px #494c4f;
+  box-shadow: 5px 5px 20px #a6acb1;
 }
 
 nav #nav {
-  color: #494c4f !important;
+  color: #fbfdfe !important;
 }
 
 #navbarSupportedContent li a:hover {
-  border-bottom: 4px solid #0aaa01;
+  border-bottom: 4px solid #f80b62;
   cursor: pointer;
-  color: #0aaa01 !important;
-  transition: 0.3s ease-out; /* Corrected transition property */
+  color: #eb0464 !important;
+  transition: 0.3s ease-out;
 }
-
+.navbar{
+  background-color: rgb(5, 0, 1) !important;
+}
