@@ -1,0 +1,26 @@
+@media (min-width: 990px) {
+  nav #nav {
+    display: none;
+  }
+}
+
+#navbarSupportedContent li a {
+  border-bottom: 2px solid transparent;
+  color: #494c4f !important;
+}
+
+nav {
+  box-shadow: 5px 5px 15px #494c4f;
+}
+
+nav #nav {
+  color: #494c4f !important;
+}
+
+#navbarSupportedContent li a:hover {
+  border-bottom: 4px solid #0aaa01;
+  cursor: pointer;
+  color: #0aaa01 !important;
+  transition: 0.3s ease-out; /* Corrected transition property */
+}
+
